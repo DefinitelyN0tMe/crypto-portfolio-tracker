@@ -1,0 +1,36 @@
+cd C:\Users\maxja\Desktop\job\crypto-portfolio-tracker
+
+@"
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Node / React
+node_modules/
+dist/
+build/
+.vite/
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+"@ | Out-File -FilePath .gitignore -Encoding UTF8
