@@ -26,25 +26,41 @@ Full-stack cryptocurrency portfolio tracking system built with **Go**, **ScyllaD
 
 ## 📦 Project Structure
 
-\`\`\`
+
 crypto-portfolio-tracker/
+
 ├── cmd/api/
+
 │   └── main.go              # Application entry point
+
 ├── internal/
+
 │   ├── db/
+
 │   │   ├── scylla.go        # ScyllaDB client
+
 │   │   └── elasticsearch.go # ElasticSearch client
+
 │   ├── handlers/
+
 │   │   └── handlers.go      # HTTP handlers
+
 │   ├── models/
+
 │   │   └── crypto.go        # Data models
+
 │   └── services/
+
 │       ├── coingecko.go     # CoinGecko API client
+
 │       └── worker.go        # Background price worker
+
 ├── docker-compose.yml       # Infrastructure setup
+
 ├── .env                     # Configuration
+
 └── README.md
-\`\`\`
+
 
 ## 🏃 Quick Start
 
