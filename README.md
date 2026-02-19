@@ -1,4 +1,3 @@
-@"
 # Crypto Portfolio Tracker
 
 Full-stack cryptocurrency portfolio tracking system built with **Go**, **ScyllaDB**, **ElasticSearch**, and **Docker**.
