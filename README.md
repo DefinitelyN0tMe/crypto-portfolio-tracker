@@ -167,4 +167,3 @@ MIT
 ## 👨‍💻 Author
 
 Maksim Jatmanov - Backend Developer specializing in Go, Blockchain & AI
-"@ | Out-File -FilePath README.md -Encoding UTF8
